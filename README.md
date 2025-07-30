@@ -16,21 +16,7 @@ A lightweight task and ticket management web application built with Flask, SQLAl
 
 ## 🧭 Project Structure
 
-taskmanager/
-├── app.py # Main Flask app with routes and models
-├── dashboard.db # SQLite database
-├── templates/ # Jinja templates
-│ ├── login.html
-│ ├── dashboard.html
-│ ├── tickets.html
-│ ├── create_ticket.html
-│ ├── ticket_detail.html
-│ ├── tasks.html
-│ ├── create_task.html
-├── static/
-│ ├── css/
-│ └── js/
-└── README.md
+<pre lang="markdown"> ``` taskmanager/ ├── app.py # Main Flask app with routes and models ├── dashboard.db # SQLite database ├── templates/ # Jinja templates │ ├── login.html │ ├── dashboard.html │ ├── tickets.html │ ├── create_ticket.html │ ├── ticket_detail.html │ ├── tasks.html │ └── create_task.html ├── static/ │ ├── css/ │ └── js/ └── README.md ``` </pre>
 
 
 ## 🛠️ Getting Started
