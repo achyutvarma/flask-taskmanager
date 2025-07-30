@@ -57,6 +57,14 @@ python app.py
 
 Access at http://127.0.0.1:5000/ and log in with default credentials:
 admin / admin123
+```  <!-- 👈 this closes the bash block -->
+
+
+###
+# Dahboard
+
+<img width="943" height="483" alt="image" src="https://github.com/user-attachments/assets/e69e94bf-025b-4d9a-a855-de16e8e73f5d" />
+
 # Core Models
 - User: holds username, password, full name.
 - Ticket: tracks tickets with ticket_no, title, description, status, assigned user, comments.
