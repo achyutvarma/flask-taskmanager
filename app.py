@@ -271,7 +271,7 @@ if __name__ == '__main__':
         db.create_all()
 
         #  Auto-create admin user if it doesn't exist
-        if not User.query.filter_by(username='admin').first():
+        if not User.query.filter_by(username='admin').first():                 # log in with default credentials
             admin_user = User(username='admin', password='admin123')
             db.session.add(admin_user)
             db.session.commit()
